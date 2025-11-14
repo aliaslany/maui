@@ -18820,11 +18820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/my Files/myProject/myProject2/mymauiApp/mymauiApp.csproj",
+      "projectUniqueName": "/Volumes/my Files/myProject/mymauiApp/mymauiApp.csproj",
       "projectName": "mymauiApp",
-      "projectPath": "/Volumes/my Files/myProject/myProject2/mymauiApp/mymauiApp.csproj",
+      "projectPath": "/Volumes/my Files/myProject/mymauiApp/mymauiApp.csproj",
       "packagesPath": "/Users/aslani/.nuget/packages/",
-      "outputPath": "/Volumes/my Files/myProject/myProject2/mymauiApp/obj/",
+      "outputPath": "/Volumes/my Files/myProject/mymauiApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
