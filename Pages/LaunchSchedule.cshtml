@@ -1,0 +1,117 @@
+@page
+@model LaunchScheduleModel
+@{
+    ViewData["Title"] = "Launch Schedule";
+}
+
+<div class="container">
+    <div class="section-header">
+        <h1 class="section-title">Rocket Launch Schedule</h1>
+        <p class="section-subtitle">Upcoming and recent rocket launches from around the world</p>
+    </div>
+
+    <div class="article-grid">
+        <article class="article-card featured-article">
+            <div class="article-image">
+                <span>🚀</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Next Launch</div>
+                <h3 class="article-title">SpaceX Falcon 9 - Starlink Mission</h3>
+                <p class="article-excerpt">Launch Date: January 15, 2025 at 2:30 PM EST<br/>
+                Location: Cape Canaveral Space Force Station, Florida<br/>
+                Mission: Deploy 60 Starlink satellites to low Earth orbit</p>
+                <div class="article-meta">
+                    <span>Live in 2 days</span>
+                    <span>SpaceX</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🛰️</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Upcoming</div>
+                <h3 class="article-title">NASA Artemis II - Crewed Moon Mission</h3>
+                <p class="article-excerpt">Launch Date: January 20, 2025<br/>
+                Location: Kennedy Space Center, Florida<br/>
+                Mission: First crewed mission around the Moon since Apollo</p>
+                <div class="article-meta">
+                    <span>7 days</span>
+                    <span>NASA</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🌍</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Upcoming</div>
+                <h3 class="article-title">ESA Ariane 6 - Maiden Flight</h3>
+                <p class="article-excerpt">Launch Date: January 18, 2025<br/>
+                Location: Guiana Space Centre, French Guiana<br/>
+                Mission: Inaugural flight of Europe's new heavy-lift rocket</p>
+                <div class="article-meta">
+                    <span>5 days</span>
+                    <span>ESA</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🔬</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Upcoming</div>
+                <h3 class="article-title">Rocket Lab Electron - Science Mission</h3>
+                <p class="article-excerpt">Launch Date: January 22, 2025<br/>
+                Location: Mahia Peninsula, New Zealand<br/>
+                Mission: Deploy scientific instruments to study Earth's atmosphere</p>
+                <div class="article-meta">
+                    <span>9 days</span>
+                    <span>Rocket Lab</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🪐</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Upcoming</div>
+                <h3 class="article-title">ULA Vulcan - Commercial Payload</h3>
+                <p class="article-excerpt">Launch Date: January 25, 2025<br/>
+                Location: Cape Canaveral Space Force Station<br/>
+                Mission: Launch commercial communications satellite</p>
+                <div class="article-meta">
+                    <span>12 days</span>
+                    <span>United Launch Alliance</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>⭐</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Recent</div>
+                <h3 class="article-title">SpaceX Falcon Heavy - Successful Launch</h3>
+                <p class="article-excerpt">Launched: January 10, 2025<br/>
+                Mission: Successfully deployed multiple satellites to geostationary orbit<br/>
+                Status: All payloads deployed successfully</p>
+                <div class="article-meta">
+                    <span>Completed</span>
+                    <span>SpaceX</span>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+

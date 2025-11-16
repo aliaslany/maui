@@ -1,12 +1,171 @@
 @page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Astrolo</h1>
-    <p class="lead">Your Gateway to the Universe</p>
-    <p>Explore space exploration news, astronomy content, and cosmic discovery.</p>
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content text-center">
+            <h1 class="hero-title">Your Gateway to the Universe</h1>
+            <p class="hero-subtitle">Breaking space news, in-depth analysis, and real-time space tracking for space enthusiasts worldwide</p>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Articles Section -->
+<div class="container">
+    <div class="section-header">
+        <h2 class="section-title">Featured Stories</h2>
+        <p class="section-subtitle">Latest breaking news from space exploration and astronomy</p>
+    </div>
+
+    <div class="article-grid">
+        <!-- Featured Article (Large) -->
+        <article class="article-card featured-article">
+            <div class="article-image">
+                <span>🚀</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Space Exploration</div>
+                <h3 class="article-title">NASA's Latest Mission Reveals Stunning Discoveries on Mars</h3>
+                <p class="article-excerpt">Scientists have uncovered new evidence of ancient water systems and potential signs of past microbial life in the Red Planet's Jezero Crater.</p>
+                <div class="article-meta">
+                    <span>2 hours ago</span>
+                    <span>By Space Team</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Regular Articles -->
+        <article class="article-card">
+            <div class="article-image">
+                <span>🌙</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Astronomy</div>
+                <h3 class="article-title">Total Solar Eclipse 2025: Complete Viewing Guide</h3>
+                <p class="article-excerpt">Everything you need to know about the upcoming total solar eclipse, including best viewing locations and safety tips.</p>
+                <div class="article-meta">
+                    <span>5 hours ago</span>
+                    <span>By Astronomy Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🛰️</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Commercial Space</div>
+                <h3 class="article-title">SpaceX Launches Record-Breaking Mission to ISS</h3>
+                <p class="article-excerpt">SpaceX successfully launches its 30th cargo mission to the International Space Station, delivering critical supplies and experiments.</p>
+                <div class="article-meta">
+                    <span>8 hours ago</span>
+                    <span>By Launch Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🔭</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Science</div>
+                <h3 class="article-title">James Webb Telescope Discovers New Exoplanet</h3>
+                <p class="article-excerpt">The revolutionary space telescope has identified a potentially habitable exoplanet in a nearby star system, sparking excitement among astronomers.</p>
+                <div class="article-meta">
+                    <span>12 hours ago</span>
+                    <span>By Science Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>⭐</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Night Sky</div>
+                <h3 class="article-title">Tonight's Sky: Visible Planets and Meteor Shower</h3>
+                <p class="article-excerpt">Your complete guide to what's visible in the night sky tonight, including planet positions and the peak of the annual meteor shower.</p>
+                <div class="article-meta">
+                    <span>1 day ago</span>
+                    <span>By Sky Guide Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🌌</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Astrophysics</div>
+                <h3 class="article-title">Black Hole Merger Creates Ripples in Spacetime</h3>
+                <p class="article-excerpt">Gravitational wave detectors have captured signals from the most massive black hole merger ever observed, providing new insights into cosmic evolution.</p>
+                <div class="article-meta">
+                    <span>2 days ago</span>
+                    <span>By Physics Team</span>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Latest News Section -->
+    <div class="section-header">
+        <h2 class="section-title">Latest News</h2>
+        <p class="section-subtitle">Stay updated with the most recent space and astronomy news</p>
+    </div>
+
+    <div class="article-grid">
+        <article class="article-card">
+            <div class="article-image">
+                <span>🪐</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Planetary Science</div>
+                <h3 class="article-title">Jupiter's Great Red Spot Shows Signs of Shrinking</h3>
+                <p class="article-excerpt">New observations reveal that the iconic storm on Jupiter may be changing more rapidly than previously thought.</p>
+                <div class="article-meta">
+                    <span>3 days ago</span>
+                    <span>By Planetary Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🌠</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Stargazing</div>
+                <h3 class="article-title">Best Telescopes for Beginners in 2025</h3>
+                <p class="article-excerpt">Our comprehensive guide to choosing the perfect telescope for your stargazing journey, with expert recommendations.</p>
+                <div class="article-meta">
+                    <span>4 days ago</span>
+                    <span>By Reviews Team</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card">
+            <div class="article-image">
+                <span>🌍</span>
+            </div>
+            <div class="article-content">
+                <div class="article-category">Earth Science</div>
+                <h3 class="article-title">Aurora Forecast: Northern Lights Visible This Week</h3>
+                <p class="article-excerpt">Solar activity is creating spectacular aurora displays visible from northern latitudes. Check your local forecast.</p>
+                <div class="article-meta">
+                    <span>5 days ago</span>
+                    <span>By Weather Team</span>
+                </div>
+            </div>
+        </article>
+    </div>
 </div>
 
