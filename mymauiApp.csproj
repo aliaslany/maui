@@ -8,8 +8,22 @@
 		<AssemblyName>Astrolo</AssemblyName>
 	</PropertyGroup>
 
+
+	<!-- Exclude MAUI platform-specific files from web build -->
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.App" />
+		<Compile Remove="Platforms\**\*.cs" />
+		<Compile Remove="App.xaml.cs" />
+		<Compile Remove="AppShell.xaml.cs" />
+		<Compile Remove="MainPage.xaml.cs" />
+		<Compile Remove="MauiProgram.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Platforms\**\*" />
+		<None Remove="App.xaml" />
+		<None Remove="AppShell.xaml" />
+		<None Remove="MainPage.xaml" />
+		<None Remove="Resources\**\*" />
 	</ItemGroup>
 
 </Project>
