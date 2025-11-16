@@ -1,9 +1,62 @@
-# maui- astronomy lovers
- # Astrolo.com - Your Gateway to the Universe
+# Astrolo.com - Your Gateway to the Universe
 
 ## Overview
 
 Astrolo.com is the leading online destination for space exploration news, astronomy content, and cosmic discovery. We deliver breaking news, in-depth analysis, real-time space tracking, and educational resources for space enthusiasts, professionals, and curious minds alike.
+
+## Getting Started
+
+### Prerequisites
+
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) or later
+
+### Running the Application
+
+1. **Clone or navigate to the project directory:**
+   ```bash
+   cd mymauiApp
+   ```
+
+2. **Restore dependencies (if needed):**
+   ```bash
+   dotnet restore
+   ```
+
+3. **Build the project:**
+   ```bash
+   dotnet build
+   ```
+
+4. **Run the application:**
+   ```bash
+   dotnet run
+   ```
+
+5. **Access the website:**
+   - Open your browser and navigate to:
+     - **HTTP**: `http://localhost:5000`
+     - **HTTPS**: `https://localhost:5001`
+
+   The application will automatically open in your default browser when launched.
+
+### Running with Specific Profile
+
+You can also specify which profile to use:
+
+```bash
+# Run with HTTP only
+dotnet run --launch-profile http
+
+# Run with HTTPS (default)
+dotnet run --launch-profile https
+```
+
+### Development
+
+The application runs in Development mode by default. Configuration files:
+- `appsettings.json` - General application settings
+- `appsettings.Development.json` - Development-specific settings
+- `Properties/launchSettings.json` - Launch profiles and URLs
 
 ## Mission
 
